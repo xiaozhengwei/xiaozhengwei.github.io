@@ -1,0 +1,5 @@
+* [Welcome](/?id=Welcome)
+* [Java](/menu/java.md)
+* [数据库](/menu/database.md)
+* [中间件](/menu/middleware.md)
+* [Linux](/menu/linux.md)
