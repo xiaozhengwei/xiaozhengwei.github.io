@@ -5,7 +5,8 @@ target/
 .classpath
 .settings
 # ignore IntelliJ configuration files
-.idea/
+out
+.idea
 *.iml
 *.ipr
 *.iws
