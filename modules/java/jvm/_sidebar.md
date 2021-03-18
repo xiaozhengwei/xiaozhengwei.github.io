@@ -1,4 +1,4 @@
-* [首页](/?id=Welcome)
+* [返回](/menu/java)
 
 * Java虚拟机
   * [简介](/modules/java/jvm/index.md)
