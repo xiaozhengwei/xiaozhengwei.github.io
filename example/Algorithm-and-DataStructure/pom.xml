@@ -17,6 +17,7 @@
 
     <modules>
         <module>Max-heap</module>
+        <module>Count-Min-Sketch</module>
     </modules>
 
     <build>
