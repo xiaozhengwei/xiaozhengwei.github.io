@@ -16,8 +16,10 @@
     </properties>
 
     <modules>
-        <module>Max-heap</module>
         <module>Count-Min-Sketch</module>
+        <module>Dynamic-Programming</module>
+        <module>Max-heap</module>
+        <module>Recursive</module>
     </modules>
 
     <build>

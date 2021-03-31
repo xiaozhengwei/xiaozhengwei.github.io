@@ -1,5 +1,7 @@
 package com.utunan;
 
+import java.util.HashMap;
+
 public class MaxHeap {
 
     int maxSize;
@@ -59,15 +61,10 @@ public class MaxHeap {
     }
 
     public static void main(String[] args) {
-        MaxHeap heap = new MaxHeap();
-        heap.add(1);
-        heap.add(2);
-        heap.add(3);
-        heap.add(4);
-        heap.add(5);
-        heap.add(6);
-        heap.add(7);
-        heap.toString();
+        MaxHeap []heaps=new MaxHeap[100];
+      for (MaxHeap maxHeap:heaps){
+          System.out.println(maxHeap);
+      }
 
     }
 }
