@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
+)
 // Go语言中变量声明必须使用，不使用编译不过去（局部变量）
 
 var (
