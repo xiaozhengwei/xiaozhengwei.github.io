@@ -1,13 +1,20 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main()  {
-	yuan("你好")
+	happy("你好")
 }
 
 
-func yuan(s string) int {
-	fmt.Println(s)
+func happy(s string) (int,int) {
+	fmt.Print(s)
+	return 0 ,1
+}
+
+func crazy(s string) int {
+	fmt.Print(s)
 	return 0
 }
