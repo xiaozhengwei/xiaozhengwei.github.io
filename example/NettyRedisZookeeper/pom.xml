@@ -10,12 +10,12 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ChatCommon</module>
-        <module>NettyDemos</module>
-        <module>NIODemos</module>
-        <module>ZookeeperDemos</module>
-        <module>RedisDemos</module>
-        <module>CoccurrentDemos</module>
+        <module>chat-common</module>
+        <module>concurrent-demo</module>
+        <module>netty-demo</module>
+        <module>nio-demo</module>
+        <module>redis-demo</module>
+        <module>zookeeper-demo</module>
     </modules>
 
     <properties>
