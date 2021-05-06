@@ -1,5 +1,6 @@
 * [首页](/?id=Welcome)
 * [数据结构与算法](/menu/arithmetic.md)
+* [设计模式](/modules/designpattern/index.md)
 * [Java](/menu/java.md)
 * [数据库](/menu/database.md)
 * [Linux](/modules/linux/index.md)
