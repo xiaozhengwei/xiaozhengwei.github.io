@@ -2,6 +2,7 @@
 * [算法](/modules/arithmetic/index.md)
 * [数据结构](/modules/datastructure/index.md)
 * [设计模式](/modules/designpattern/index.md)
+* [中间件](/menu/middleware.md)
 * [Java](/menu/java.md)
 * [数据库](/menu/database.md)
 * [Linux](/modules/linux/index.md)

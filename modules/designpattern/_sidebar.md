@@ -1,4 +1,4 @@
-* [返回](/?id=Welcome)
+* [首页](/?id=Welcome)
 
 * 设计模式
 	* [简介](/modules/designpattern/index.md)
