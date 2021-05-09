@@ -3,11 +3,9 @@
 * [数据结构](/modules/datastructure/index.md)
 * [设计模式](/modules/designpattern/index.md)
 * [中间件](/menu/middleware.md)
-* [Java](/menu/java.md)
 * [数据库](/menu/database.md)
-* [Linux](/modules/linux/index.md)
 * [Docker](/modules/docker/index.md)
-* [服务治理](/menu/servicegovernance.md)
+* [Java](/menu/java.md)
+* [Linux](/modules/linux/index.md)
 * [资源](/menu/resources.md)
 * [关于](/about.md)
-

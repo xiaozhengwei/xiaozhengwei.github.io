@@ -1,4 +1,4 @@
-* [首页](/?id=Welcome)
+* [返回](/?id=Welcome)
 
 * 数据结构
   * [简介](/modules/datastructure/index.md)
