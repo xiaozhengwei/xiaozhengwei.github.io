@@ -18,39 +18,30 @@ public class LeetCode1482 {
 
 
 class Solution {
-    int n, m, k;
-    public int minDays(int[] nums, int _m, int _k) {
-        n = nums.length;
-        m = _m; k = _k;
 
-        if (n < m * k) return -1;
+    public int minDays(int[] bloomDay, int m, int k) {
 
-        int l = 0, r = (int)1e9;
-        while (l < r) {
-            int mid = l + r >> 1;
-            if (check(nums, mid)) {
-                r = mid;
-            } else {
-                l = mid + 1;
-            }
+        int result = 0;
+        int maxFollowerCount = bloomDay.length;
+        if (maxFollowerCount < m * k) {
+            return -1;
         }
-        return check(nums, r) ? r : -1;
-    }
-    boolean check(int[] nums, int mid) {
-        int cnt = 0;
-        for (int i = 0; i < n && cnt < m; ) {
-            int cur = nums[i] <= mid ? 1 : 0, j = i;
-            if (cur > 0) {
-                while (cur < k && j + 1 < n && nums[j + 1] <= mid) {
-                    j++;
-                    cur++;
+
+        List<Integer> list = new ArrayList<>();
+
+        for (int day : bloomDay) {
+            list.add(day);
+        }
+        list.sort(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                if (o1 > o2) {
+                    return 1;
+                } else {
+                    return -1;
                 }
-                if (cur == k) cnt++;
-                i = j + 1;
-            } else {
-                i++;
             }
-        }
-        return cnt >= m;
+        });
+        return bloomDay[m * k - 1];
     }
 }
