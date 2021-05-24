@@ -9,3 +9,4 @@ docker run \
 --name myredis \ # 给容器起个名字
 -d redis redis-server /etc/redis/redis.conf # deamon 运行容器 并使用配置文件启动容器内的 redis-server 
 ```
+

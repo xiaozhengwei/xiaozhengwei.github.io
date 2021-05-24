@@ -16,10 +16,11 @@
     </properties>
 
     <modules>
-        <module>Count-Min-Sketch</module>
-        <module>Dynamic-Programming</module>
         <module>Max-heap</module>
         <module>Recursive</module>
+        <module>Sort</module>
+        <module>minNumInArray</module>
+        <module>SwordFingerOffer</module>
     </modules>
 
     <build>
