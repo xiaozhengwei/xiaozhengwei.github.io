@@ -2,31 +2,55 @@ package sword.finger.offer;
 
 public class Question12 {
 
-    private static boolean hasPath() {
+    private static boolean hasPath(char[][] matrix, boolean[][] visited, int row, int col, int pathLength, char[] str) {
 
+        boolean hasPath = false;
+        if (str.length <= pathLength)
+            return true;
 
-        return false;
+        if (row >= 0 && row < matrix.length &&
+                col >= 0 && col < matrix[0].length &&
+                matrix[row][col] == str[pathLength]
+                && !visited[row][col]
+        ) {
+
+            ++pathLength;
+            visited[row][col] = true;
+            hasPath = hasPath(matrix, visited, row + 1, col, pathLength, str) ||
+                    hasPath(matrix, visited, row - 1, col, pathLength, str) ||
+                    hasPath(matrix, visited, row, col + 1, pathLength, str) ||
+                    hasPath(matrix, visited, row, col - 1, pathLength, str);
+
+            if (!hasPath) {
+                --pathLength;
+                visited[row][col] = false;
+            }
+
+        }
+        return hasPath;
     }
 
     private static boolean hasPath(char[][] matrix, char[] str) {
-        boolean hasPath = false;
 
-        // 记录是否被访问;
+        // 记录该下标的元素是否已经访问过了
         boolean[][] visited = new boolean[matrix.length][matrix[0].length];
+
+        int pathLength = 0;
 
         for (int row = 0; row < matrix.length; row++) {
             for (int col = 0; col < matrix[0].length; col++) {
-                if (hasPath()) {
-                    hasPath = true;
+                if (hasPath(matrix, visited, row, col, pathLength, str)) {
+                    return true;
                 }
             }
         }
 
 
-        return hasPath;
+        return false;
     }
 
     public static void main(String[] args) {
+
         /*
          * a b t g
          * c f c s

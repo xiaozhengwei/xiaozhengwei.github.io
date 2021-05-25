@@ -19,7 +19,6 @@
         <module>Max-heap</module>
         <module>Recursive</module>
         <module>Sort</module>
-        <module>minNumInArray</module>
         <module>SwordFingerOffer</module>
     </modules>
 
