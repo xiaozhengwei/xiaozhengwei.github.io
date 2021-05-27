@@ -16,6 +16,7 @@
     </properties>
 
     <modules>
+        <module>LeetCode</module>
         <module>Max-heap</module>
         <module>Recursive</module>
         <module>Sort</module>
