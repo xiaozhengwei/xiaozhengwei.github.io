@@ -1,12 +1,15 @@
-package leetcode1738;
+import org.junit.jupiter.api.Test;
 
 public class Leetcode1738 {
-}
 
-class Solution {
+    @Test
+    public void run() {
+
+    }
 
     public int kthLargestValue(int[][] matrix, int k) {
 
         return 0;
     }
+
 }

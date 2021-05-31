@@ -1,4 +1,4 @@
-package leetcode1190;
+import org.junit.jupiter.api.Test;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -6,18 +6,7 @@ import java.util.Stack;
 
 public class Leetcode1190 {
 
-
-
-    public static void main(String[] args) {
-        String s = "a(bcdefghijkl(mno)p)q";
-        System.out.println(new Solution().reverseParentheses(s));
-
-    }
-
-}
-
-class Solution {
-    public String reverseParentheses(String s) {
+    public static String reverseParentheses(String s) {
 
         Deque<String> stack = new LinkedList<String>();
 
@@ -37,6 +26,13 @@ class Solution {
         }
 
         return sb.toString();
+
+    }
+
+    @Test
+    public static void main(String[] args) {
+        String s = "a(bcdefghijkl(mno)p)q";
+        System.out.println(reverseParentheses(s));
 
     }
 

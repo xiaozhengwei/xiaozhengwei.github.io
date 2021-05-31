@@ -1,16 +1,11 @@
-package leetcode1442;
+import org.junit.jupiter.api.Test;
 
 public class Leetcode1442 {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
+    @Test
+    public void run() {
 
-        int[] arr = {2, 3, 1, 6, 7};
-        int result = solution.countTriplets(arr);
-        System.out.println(result);
     }
-}
 
-class Solution {
     public int countTriplets(int[] arr) {
         int n = arr.length;
         int[] s = new int[n + 1];

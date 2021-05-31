@@ -1,23 +1,15 @@
-package leetcode1482;
+import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 
 public class LeetCode1482 {
 
-    public static void main(String[] args) {
-
-        Solution solution = new Solution();
-        // example 1
-
-        // example 2
-
-        // example 3
+    @Test
+    public void run() {
 
     }
-}
-
-
-class Solution {
 
     public int minDays(int[] bloomDay, int m, int k) {
 
@@ -44,4 +36,5 @@ class Solution {
         });
         return bloomDay[m * k - 1];
     }
+
 }
