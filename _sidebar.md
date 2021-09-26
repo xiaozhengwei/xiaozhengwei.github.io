@@ -3,7 +3,7 @@
 * [数据结构](/modules/datastructure/index.md)
 * [设计模式](/modules/designpattern/index.md)
 * [中间件](/menu/middleware.md)
-* [后端存储](/menu/backendstorage.md)
+* [数据存储](/menu/datastorage.md)
 * [服务编排](/menu/serviceorchestration.md)
 * [Java](/menu/java.md)
 * [Linux](/modules/linux/index.md)
