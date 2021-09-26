@@ -19,17 +19,24 @@
   <script src="./resources/js/index.js"></script>
   <script>
     window.$docsify = {
-      name: '政委呦',
+      name: '软件小政委',
       repo: 'https://github.com/xiaozhengwei/xiaozhengwei.github.io',
-      maxLevel: 5,//最大支持渲染的标题层级
+      maxLevel: 5, //最大支持渲染的标题层级
       subMaxLevel: 5,
       homepage: 'README.md',
       coverpage: true,
       loadSidebar: true,
-      // auto2top: true,//切换页面后是否自动跳转到页面顶部
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: '🔍 搜索 ',
+        noData: '😞 未查询到结果! ',
+        depth: 6
+      }
     }
   </script>
   <script src="./resources/js/docsify.min.js"></script>
+  <script src="./resources/js/search.min.js"></script>
 </body>
 
 </html>
