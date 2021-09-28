@@ -6,3 +6,6 @@ a{
     color:#6666FF;
     font-weight:bold;
 }
+.markdown-section{
+    max-width: 876px;
+}

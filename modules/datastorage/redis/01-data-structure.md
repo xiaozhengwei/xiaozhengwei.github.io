@@ -2,7 +2,7 @@
 
 Redis非常的"快"。
 
-它接收到一个键值对操作后，能以 <span class="font-first"> 微秒</span> 级别的速度找到数据，并快速完成操作。
+它接收到一个键值对操作后，能以 <span class="font-first">微秒</span> 级别的速度找到数据，并快速完成操作。
 
 
 
