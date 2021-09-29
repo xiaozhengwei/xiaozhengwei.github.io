@@ -1,14 +1,41 @@
-# Docker安装ElasticSearch
+## Docker安装Elasticsearch
+
+```
+mkdir -p /home/elasticsearch/config/ /home/elasticsearch/data /home/elasticsearch/plugins;
+touch /home/elasticsearch/config/elasticsearch.yml;
+```
+
+
 
 ```shell
-docker pull elasticsearch:6.8.3
+docker run \
+--name elasticsearch \
+-p 9200:9200 \
+-p 9300:9300 \
+-e "discovery.type=single-node" \
+-e ES_JAVA_OPTS="-Xms128m -Xmx128m" \
+-v \
+/home/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml \
+-v \
+/home/elasticsearch/data:/usr/share/elasticsearch/data \
+-v \
+/home/elasticsearch/plugins:/usr/share/elasticsearch/plugins \
+-d elasticsearch:7.12.0 ;
+```
 
-# 第一个 `elasticsearch` 为容器的名字( 自行编辑 ), 第二个 `elasticsearch` 为镜像/镜像ID( 自行编辑 )
-docker run -d -p 9200:9200 -p 9300:9300 --name elasticsearch  `elasticsearch`
+```shell
+docker run \
+--name kibana \
+-e ELASTICSEARCH_HOSTS=http://180.76.100.50:9200 \
+-p 5601:5601 \
+-d kibana:7.12.0;
+```
 
+```shell
 # 可选项
-# -e "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+-e "ES_JAVA_OPTS=-Xms512m -Xmx512m"
 
 # 其中一个错误的解决方案
-# sudo sysctl -w vm.max_map_count=262144
+sudo sysctl -w vm.max_map_count=262144
 ```
+
