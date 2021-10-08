@@ -1,7 +1,8 @@
 # MySQL
 
-MySQL is the world's most popular open source database. 
+```
+这个是极客时间的<<MySQL实战45讲>>
+我目前正在学习。
+每天学习两个章节，然后在学完后话一周时间在做总结。
+```
 
-Whether you are a fast growing web property, technology ISV or large enterprise.
-
-MySQL can cost-effectively help you deliver high performance, scalable database applications.

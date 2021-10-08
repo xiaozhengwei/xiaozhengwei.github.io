@@ -68,3 +68,10 @@ docker logs `containerid`
 docker exec -it `containerid` bash
 ```
 
+
+
+```shell
+# 查看容器信息
+docker inspect `containerid` 
+```
+
