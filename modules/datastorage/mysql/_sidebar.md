@@ -7,4 +7,5 @@
   * [**事务隔离**](/modules/datastorage/mysql/03.transaction-isolation.md)
   * [**深入浅出索引**](/modules/datastorage/mysql/04.in-depth-index.md)
   * [**Mysql的锁**](/modules/datastorage/mysql/05.mysql-lock.md)
+  * [**事务到底是隔离的还是不隔离**](/modules/datastorage/mysql/06-transaction-isolation.md)
 
