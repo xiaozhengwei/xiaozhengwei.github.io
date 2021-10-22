@@ -11,4 +11,5 @@
   * [**普通索引和唯一索引，应该怎么选择**](/modules/datastorage/mysql/07.mysql.md)
   * [**MySQL为什么有时候会选错索引**](/modules/datastorage/mysql/08.mysql.md)
   * [**怎么给字符串字段加索引**](/modules/datastorage/mysql/09.mysql.md)
+  * [**Mysql为什么会“抖”一下**](/modules/datastorage/mysql/10.mysql.md)
 
