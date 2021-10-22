@@ -12,4 +12,5 @@
   * [**MySQL为什么有时候会选错索引**](/modules/datastorage/mysql/08.mysql.md)
   * [**怎么给字符串字段加索引**](/modules/datastorage/mysql/09.mysql.md)
   * [**Mysql为什么会“抖”一下**](/modules/datastorage/mysql/10.mysql.md)
+  * [**为什么表数据删掉一半，表文件大小不变**](/modules/datastorage/mysql/11.mysql.md)
 
