@@ -3,6 +3,7 @@
 * Java
   * [**example**](/modules/datastorage/mysql/index.md)
 * MySQL
+* [**example**](/modules/datastorage/mysql/index.md)
 * Redis
 * MySQL
 
