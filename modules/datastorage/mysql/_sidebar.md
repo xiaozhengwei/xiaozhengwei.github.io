@@ -14,4 +14,5 @@
   * [**Mysql为什么会“抖”一下**](/modules/datastorage/mysql/10.mysql.md)
   * [**为什么表数据删掉一半，表文件大小不变**](/modules/datastorage/mysql/11.mysql.md)
   * [ **count(*)这么慢，我该怎么办**](/modules/datastorage/mysql/12.mysql.md)
+  * [ **order by是怎么工作的？**](/modules/datastorage/mysql/13.mysql.md)
 
