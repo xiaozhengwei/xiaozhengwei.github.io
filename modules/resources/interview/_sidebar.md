@@ -1,9 +1,8 @@
 * [首页](/?id=Welcome)
-* 计算机网络
-* Java
-  * [**example**](/modules/datastorage/mysql/index.md)
-* MySQL
-* [**example**](/modules/datastorage/mysql/index.md)
-* Redis
-* MySQL
+* **面试**
+  * [**计算机网络**](/modules/resources/interview/network.md)
+  * Java
+  * MySQL
+  * Redis
+  * MySQL
 
